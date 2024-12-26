@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import me from "../../assets/girl_processed.webp";
 import { Download } from "lucide-react";
-import Connect from "../connect/connect";
+import Connect from "../connect/Connect";
 
 function Home() {
   return (
