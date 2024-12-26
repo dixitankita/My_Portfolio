@@ -1,0 +1,270 @@
+#projects{
+    position: relative;
+    background:#D9CECA;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+      height: 100%;
+}
+.prjContainer{display: flex;
+
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+  height: 100%;
+  width: 100vw;
+}
+
+.prjHeading{
+    margin-bottom: 1;
+    margin-top: 0;
+    font-size: 3.2em;
+    
+    font-weight: 500;
+}
+
+.sliderDiv{
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    border-radius: 0%;
+
+}
+.sliderContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+ 
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .slideItem {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  img{
+    height: 45vh;
+    border-radius: 4%;
+    width: 70vh;
+  }
+  .projectInfo{
+    margin-top:2% ;
+    
+    
+  }
+  .projectInfo p{
+    margin: 0;
+    font-size: 1.2em;
+    color:  #644537;
+    font-weight: 600;
+    height: 20px;
+    text-transform: uppercase;
+  }
+  .projectInfo h3{
+   margin: 0;
+   font-weight: 600;
+   height: 30px;
+  }
+.nextBtn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+ color: #644537;
+  gap: 0.2vw;
+  padding: 10px 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.605);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  font-weight: 500;
+   font-size: 1em;
+}
+.nextBtn:hover {
+    background-color: #805a49;
+    color: #ffffff;
+    
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  }
+.githubLink{
+   
+    text-transform: capitalize;
+    font-size: 1em; 
+    color: #644537;
+    font-weight: bold; 
+    text-decoration: none;
+}
+.githubLink:hover{
+    text-decoration:underline; 
+    color: #000001; 
+    
+   
+}
+/* Responsive design */
+@media (max-width: 1200px) {
+    .prjContainer{
+        height: 100%;
+        width: 100%;
+    }
+    .sliderContainer{
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .sliderDiv {
+        width: 100%;
+        height: 65%;
+    }
+
+    img {
+        width: 60vh;
+        height: 40vh;
+    }
+    .projectInfo{
+        margin-top:2% ;
+        
+      }
+      .projectInfo p{
+        margin: 0;
+        font-size: 1.3em;
+      }
+      .projectInfo h3{
+        margin: 0;
+      }
+}
+
+@media (max-width: 900px) {
+    .sliderDiv {
+        width: 80%;
+        height: 57%;
+    }
+    .sliderContainer{
+        height: 48vh;
+    }
+
+    img {
+        width: 50vh;
+        height: 35vh;
+    }
+
+    .nextBtn {
+        font-size: 0.9em;
+        padding: 8px 8px;
+    }
+
+    .projectInfo h3,
+    .projectInfo p {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #projects {
+        padding: 10px;
+    }
+    .sliderContainer{
+        height: 50vh;
+    }
+    .sliderDiv {
+        height: 65%;
+    }
+
+    img {
+        width: 50vw;
+        height: 40vh;
+    }
+
+    .nextBtn {
+        font-size: 0.9em;
+        padding: 8px 8px;
+    }
+
+    .projectInfo h3,
+    .projectInfo p {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 700px){
+    .sliderDiv {
+        width: 85%;
+        height: 65%;
+    }
+    .sliderContainer{
+        height: 35vh;
+    }
+    img {
+        width: 60vw;
+        height: 40vh;
+    }
+    .projectInfo h3,
+    .projectInfo p {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 699px){
+    .sliderContainer{
+        height: 77% ;
+    }
+    .sliderDiv {
+        width: 80%;
+        height: 63%;
+    }
+    img {
+        width: 80%;
+        height: 36vh;
+        border-radius: 9%;
+    }
+    .projectInfo h3,
+    .projectInfo p {
+        font-size: 1.4em;
+    }
+    .nextBtn {
+        font-size: 1.2em;
+        padding: 14px 14px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .prjContainer{
+        height: 100%;
+        width: 100%;
+    }
+    .sliderContainer{
+        height: 80%;
+        width: 80%;
+    }
+    .sliderDiv {
+        width: 100%;
+        height: 60%;
+    }
+    img {
+        width: 100%;
+        height: 33vh;
+        border-radius: 9%;
+        
+    }
+
+    .nextBtn {
+        font-size: 1.2em;
+        padding: 14px 14px;
+    }
+
+    .projectInfo h3,
+    .projectInfo p {
+        font-size: 1.4em;
+    }
+}

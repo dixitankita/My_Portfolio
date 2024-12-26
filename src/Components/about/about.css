@@ -1,0 +1,138 @@
+.about {
+  position: relative;
+  background-color: #d9ceca;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+  padding: 2px;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #805a49;
+}
+
+.hey {
+  height: 90%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  padding: 0 20vw;
+}
+.aboutMe {
+  font-family: monospace;
+  font-size: 3.2rem;
+  margin-bottom: 2;
+  text-align: center;
+  font-weight: 500;
+}
+.about_me {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  font-weight: 400;
+  width: 70%;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  align-items: center;
+  width: 80%;
+  margin-top: 5vh;
+}
+
+.eduContainer,
+.cerContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #805a49;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 1em;
+}
+.eduContainer:hover,
+.cerContainer:hover {
+  background-color: #d9ceca8c;
+}
+
+.did {
+  font-size: 1.2em;
+  font-weight: 550;
+  margin-left: 2vw;
+  margin-bottom: 0;
+}
+.info {
+  opacity: 0.8;
+  margin-right: 2vw;
+  font-weight: 600;
+  font-style: italic;
+}
+@media (max-width: 600px) {
+  .hey {
+    height: 90%;}
+  .about_me {
+    width: 100%;
+  }
+  .education {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hey {
+    height: 90%;}
+  .about_me {
+    width: 100%;
+  }
+  .education {
+    margin-top: 3%;
+    width: 100%;
+  }
+  .headline {
+    margin: 0;
+
+    margin: 0;
+  }
+}
+@media (max-width: 400px) {
+  .headline {
+    margin: 9%;
+  }
+  .headline {
+    font-size: 1.4rem;
+    margin: 0;
+    width: 90%;
+  }
+  .hey {
+    height: 90%;
+  }
+  .about_me {
+    width: 86%;
+    font-size: 1.2em;
+  }
+  .education {
+    width: 85%;
+    margin-top: 3%;
+  }
+  .eduContainer,
+  .cerContainer {
+    width: 100%;
+  }
+}

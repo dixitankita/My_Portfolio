@@ -1,0 +1,29 @@
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    
+}
+
+.connect li{
+    list-style: none;
+   
+    margin: 0 2px;
+    height: 2.7em;
+    width: 2.7em;
+    background-color: #805a49;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+.connect a{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
