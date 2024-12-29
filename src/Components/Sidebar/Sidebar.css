@@ -54,6 +54,7 @@ color: #A6A9E1;
      }
      .nav ul{
         height:23vh;
+        row-gap:0.5rem;
      }
      
     }

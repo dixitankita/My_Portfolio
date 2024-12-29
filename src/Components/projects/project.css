@@ -262,9 +262,12 @@
         font-size: 1.2em;
         padding: 14px 14px;
     }
-
-    .projectInfo h3,
-    .projectInfo p {
+    .projectInfo h3{
         font-size: 1.4em;
+    }
+   
+    .projectInfo p {
+        font-size: 1.2em;
+        margin-bottom: 2%;
     }
 }
