@@ -30,8 +30,8 @@ function About() {
           }}
         >
           Hey there! I'm a BCA student, diving deep into the world of full-stack
-          web development. I’m fluent in HTML, CSS, JavaScript, and ReactJS. I’m
-          always on the hunt to learn more about MERN stack technologies. When I’m
+          web development.I’m fluent in HTML, CSS, JavaScript, and ReactJS.I’m
+          always on the hunt to learn more about MERN stack technologies.When I’m
           not crafting clean code or debugging, you’ll probably find me sketching,
           doodling, or dreaming about the perfect UX flow.
         </motion.div>

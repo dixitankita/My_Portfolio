@@ -20,52 +20,52 @@ function Skills() {
         <div className="skills-container">
           <div className="skill-card">
             <span >
-              <AiOutlineHtml5 size={70} color="#fff" />
+              <AiOutlineHtml5 size={70} color="#fff" className="skillIcon" />
             </span>
             <span>HTML</span>
           </div>
           <div className="skill-card">
-           <span> <FaCss3Alt size={70} color="#fff" /></span>
+           <span> <FaCss3Alt size={70} color="#fff" className="skillIcon" /></span>
             <span>CSS</span>
           </div>
           <div className="skill-card">
-           <span> <RiTailwindCssFill size={70} color="#fff" /></span>
+           <span> <RiTailwindCssFill size={70} color="#fff" className="skillIcon"/></span>
             <span>TailwindCss</span>
           </div>
           <div className="skill-card">
-            <span><TbBrandFramerMotion size={70} color="#fff" /></span>
+            <span><TbBrandFramerMotion size={70} color="#fff" className="skillIcon"/></span>
             <span >Framer Motion</span>
           </div>
           <div className="skill-card">
-           <span> <FaBootstrap size={70} color="#fff" /></span>
+           <span> <FaBootstrap size={70} color="#fff" className="skillIcon" /></span>
             <span>Bootstrap</span>
           </div>
           <div className="skill-card">
-            <span><TbBrandJavascript size={70} color="#fff" /></span>
+            <span><TbBrandJavascript size={70} color="#fff" className="skillIcon" /></span>
             <span>JavaScript</span>
           </div>
           <div className="skill-card">
-            <span><FaNodeJs size={70} color="#fff" /></span>
+            <span><FaNodeJs size={70} color="#fff" className="skillIcon" /></span>
             <span>NodeJs</span>
           </div>
           <div className="skill-card">
-            <span><FaReact size={70} color="#fff" /></span>
+            <span><FaReact size={70} color="#fff" className="skillIcon"/></span>
             <span>React</span>
           </div>
           <div className="skill-card">
-            <span><SiExpress size={70} color="#fff" /></span>
+            <span><SiExpress size={70} color="#fff" className="skillIcon"/></span>
             <span>ExpressJS</span>
           </div>
           <div className="skill-card">
-           <span> <SiMongodb size={70} color="#fff" /></span>
+           <span> <SiMongodb size={70} color="#fff" className="skillIcon"/></span>
             <span>MongoDB</span>
           </div>
           <div className="skill-card">
-            <span><FaGithub size={70} color="#fff" /></span>
+            <span><FaGithub size={70} color="#fff" className="skillIcon" /></span>
             <span>github</span>
           </div>
           <div className="skill-card">
-          <span>  <VscVscode size={70} color="#fff" /></span>
+          <span>  <VscVscode size={70} color="#fff" className="skillIcon"/></span>
             <span>VsCode</span>
           </div>
         </div>
