@@ -248,6 +248,7 @@ h3 {
   }
   .picDiv{
     width: 85%;
+    height: 50vh;
   }
   #img {
     height: 50vh;
@@ -261,7 +262,7 @@ h3 {
   }
 
   h3 {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 .btn{
   height: 5vh;

@@ -40,11 +40,20 @@ color: #A6A9E1;
   width: 60px;
   margin-right: 1vmax;
  }
- .nav ul{
-    
- }
- .nav ul li{
  
  
- }
 }
+ 
+@media (max-width: 400px){
+    
+    .nav{
+    
+      width: 60px;
+      margin-right: 0.2vmax;
+      
+     }
+     .nav ul{
+        height:23vh;
+     }
+     
+    }
