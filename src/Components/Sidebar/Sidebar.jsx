@@ -6,10 +6,10 @@ function Sidebar() {
   return (
     <aside className='nav'> 
     <ul>
-        <li ><a href='#home'><House size={30} strokeWidth={1.5} color='#D9CECA'/></a></li>
-        <li> <a href="#about"><User size={30} strokeWidth={1.5} color='#D9CECA'/></a></li>
-        <li><a href="#skills"><Brush size={30} strokeWidth={1.5} color='#D9CECA'/></a></li>
-        <li> <a href="#projects"><FolderOpenDot size={30} strokeWidth={1.5} color='#D9CECA'/></a></li>
+        <li ><a href='#home'><House size={30} strokeWidth={1.5} color='#000'/></a></li>
+        <li> <a href="#about"><User size={30} strokeWidth={1.5} color='#000'/></a></li>
+        <li><a href="#skills"><Brush size={30} strokeWidth={1.5} color='#000'/></a></li>
+        <li> <a href="#projects"><FolderOpenDot size={30} strokeWidth={1.5} color='#000'/></a></li>
     </ul>
     
    

@@ -20,15 +20,15 @@
    justify-content: center;
     padding: 1vw ;
     height:30vh;
-    border: 1.8px solid  #805a49;
+    border: 1.8px solid  #e1d8e5;
     border-radius: 30px;
     row-gap:1rem;
-    background-color:#805a49;
+    background-color:#fefdff;
     /* rgba(255, 255, 255, 0.011) */
 }
 .nav ul li{
 list-style: none;
-color: #A6A9E1;
+color: #ffffff;
 
 }
   

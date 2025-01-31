@@ -11,7 +11,7 @@ function Connect() {
             style={{ color: "black" }}
             target="_blank"
           >
-            <Github size={20} color="#fff" strokeWidth={2.5} />
+            <Github size={20} color="#000" strokeWidth={2.5} />
           </a>
         </li>
         <li>
@@ -20,7 +20,7 @@ function Connect() {
             style={{ color: "black" }}
             target="_blank"
           >
-            <Linkedin size={20} color="#fff"  strokeWidth={2} />
+            <Linkedin size={20} color="#000"  strokeWidth={2} />
           </a>
         </li>
        

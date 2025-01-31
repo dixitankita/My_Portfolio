@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   height: 80%;
-  background-color: #e0dedf;
+  background-color: #1d1d1d;
 }
 
 .techstack {
@@ -39,8 +39,8 @@
   background: rgb(15, 10, 8);
   background: linear-gradient(
     0deg,
-    rgba(15, 10, 8, 1) 15%,
-    rgba(168, 125, 106, 1) 100%
+    #1d1d1d 15%,
+    rgb(93, 93, 93) 100%
   );
   padding: 2vw;
   display: flex;
